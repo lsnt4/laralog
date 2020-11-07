@@ -1,0 +1,19 @@
+{
+    "name": "buddhika/laralog",
+    "description": "A Classic Laravel Database Query Logger",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Buddhika\\Laralog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Buddhika\\Laralog\\LaralogServiceProvider"
+            ]
+        }
+    }
+}
